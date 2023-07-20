@@ -26,7 +26,7 @@ namespace Udemy.BankApp.Web
         {
             services.AddDbContext<BankContext>(opt =>
             {
-                opt.UseSqlServer("server=coinodb-dev.cjq6i1xxy6zz.eu-central-1.rds.amazonaws.com;database=BankDb;Uid=sa;Password=DtzsCI3HF9n4WIX7O3dj6SSdC43PdpwpMtcaXtDlj8TJy3KDSJ");
+                opt.UseSqlServer("server=xxx;database=xxx;Uid=xx;Password=XXX");
             });
             services.AddControllersWithViews();
             //services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
